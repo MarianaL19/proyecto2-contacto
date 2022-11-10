@@ -1,0 +1,109 @@
+/* fonts variable */
+@font-face {
+    font-family: "Oswald-Bold";
+    src: url(../fonts/Oswald-Bold.ttf); }
+  
+  @font-face {
+    font-family: "PT-Sans-Bold";
+    src: url(../fonts/PT_Sans-Web-Bold.ttf); }
+  
+  @font-face {
+    font-family: "PT-Sans-Regular";
+    src: url(../fonts/PT_Sans-Web-Regular.ttf); }
+  
+  @font-face {
+    font-family: "PT-Sans-Italic";
+    src: url(../fonts/PT_Sans-Web-Italic.ttf); }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E90E65;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-size: 16px;
+    font-family: "PT-Sans-Regular"; }
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT-Sans-Bold"; }
+
+#contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0 0 0;
+}
+
+.contenedor{
+    background-color: white;
+    padding: 30px;
+    width: fit-content;
+    border-radius: 7%;
+}
+
+#titulo{
+    font-size: 30px;
+    color:#E90E65;
+}
+
+/* Estilos del form */
+
+.cont-formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-formulario input,select{
+    margin-bottom: 2.2rem;
+    margin-left: 0.6rem;
+}
+
+.cont-formulario select{
+    margin-top: 2.2rem;
+    margin-left: 0.6rem;
+}
+
+.cont-formulario label, text{
+    font-weight: 700;
+}
+
+.boton-enviar{
+    width: 50%;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+    background-color: #E90E65;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 20px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 2rem;    
+}
+
+.boton-enviar:hover{
+    cursor: pointer;
+}
+
+
+.nav{
+    display: flex;
+    background-color: #e9ded4;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(37, 34, 34);
+}
+
+a:visited{
+    color: #a9a199;
+}
+
+a:hover{
+    transition: all 0.2s linear;
+    color: white;
+}
