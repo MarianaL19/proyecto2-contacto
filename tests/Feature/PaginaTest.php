@@ -24,10 +24,10 @@ class PaginaTest extends TestCase
     /** @test */
     public function validacion_formulario()
     {
-        $response = $this->post('/contacto', [
-            'nombre' => '',
+        $response = $this->post('/recibe-form-contacto', [
+            'nombre' => '1',
             'correo' => 'correoInvalido',
-            'comentario' => 'asd',
+            'comentario' => '*',
         ]);
 
         $response->assertSessionHasErrors([
